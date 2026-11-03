@@ -1,12 +1,177 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>impreme</title>
+    <title>Fotocopias & Archivos | Impresiones de Alta Calidad</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🖨️</span>
+                <span class="logo-text">PrintHub</span>
+            </div>
+            <a href="https://wa.me/5412345678?text=Hola!%20Quiero%20enviar%20un%20archivo%20para%20imprimir." class="nav-btn-wa" target="_blank" rel="noopener">
+                Enviar Archivos
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <span class="badge">Impresiones rápidas y de calidad</span>
+                <h1>Tus documentos e impresiones, <span class="gradient-text">sin complicaciones.</span></h1>
+                <p>Enviá tus archivos en PDF, Word o imagen por WhatsApp y retiralos listos o recibilos en tu domicilio.</p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/5412345678?text=Hola!%20Quiero%20consultar%20por%20fotocopias" class="btn-primary" target="_blank" rel="noopener">
+                        <span class="wa-icon">💬</span> Consultar por WhatsApp
+                    </a>
+                    <a href="#servicios" class="btn-secondary">Ver Servicios</a>
+                </div>
+            </div>
+            <div class="hero-card-decoration">
+                <div class="glass-card">
+                    <div class="card-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="card-body">
+                        <div class="file-preview">
+                            <span class="file-icon">📄</span>
+                            <div class="file-info">
+                                <span class="file-title">Apuntes_Finales.pdf</span>
+                                <span class="file-sub">A4 • Doble faz • Blanco y Negro</span>
+                            </div>
+                            <span class="status-badge">Listo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="services">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="grid-services">
+                <!-- Servicio 1 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="service-card front">
+                            <div class="icon-box">🖨️</div>
+                            <h3>Fotocopias e Impresiones</h3>
+                            <p>Impresiones en A4, Oficio, B/N y Color. Excelente nitidez en texto e imágenes para tus apuntes o trabajos académicos.</p>
+                            <span class="hint-flip">Girar para ver precios 🔄</span>
+                        </div>
+                        <div class="service-card back">
+                            <h3>Precios - Fotocopias</h3>
+                            <ul class="price-list">
+                                <li><span>B/N Simple Faz:</span> <strong>$75</strong></li>
+                                <li><span>B/N Doble Faz:</span> <strong>$50</strong></li>
+                                <li><span>Color Simple Faz:</span> <strong>$150</strong></li>
+                                <li><span>Color Doble Faz:</span> <strong>$100</strong></li>
+                            </ul>
+                            <a href="https://wa.me/5412345678?text=Hola!%20Quiero%20encargar%20fotocopias" class="btn-primary-small" target="_blank" rel="noopener">Encargar ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="service-card front">
+                            <div class="icon-box">📚</div>
+                            <h3>Anillados y Encuadernación</h3>
+                            <p>Organizá tus manuales y apuntes con tapas transparentes, plastificados y espirales resistentes para un acabado profesional.</p>
+                            <span class="hint-flip">Girar para ver precios 🔄</span>
+                        </div>
+                        <div class="service-card back">
+                            <h3>Precios - Anillados</h3>
+                            <ul class="price-list">
+                                <li><span>Plastificado A4:</span> <strong>$1,000</strong></li>
+                                <li><span>Plastificado Carnet:</span> <strong>$500</strong></li>
+                                <li><span>Anillado (hasta 250):</span> <strong>$3,000</strong></li>
+                                <li><span>Anillado (500 o más):</span> <strong>$5,000</strong></li>
+                            </ul>
+                            <a href="https://wa.me/5412345678?text=Hola!%20Quiero%20encargar%20un%20anillado" class="btn-primary-small" target="_blank" rel="noopener">Encargar anillado</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 3 (Otros Servicios) -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="service-card front">
+                            <div class="icon-box">📁</div>
+                            <h3>Otros Servicios</h3>
+                            <p>Revelado de fotos en varios tamaños, fotos carnet profesionales y tarjetas de presentación para tu emprendimiento.</p>
+                            <span class="hint-flip">Girar para ver precios 🔄</span>
+                        </div>
+                        <div class="service-card back">
+                            <h3>Precios - Otros Servicios</h3>
+                            <ul class="price-list">
+                                <li><span>Foto 15x20:</span> <strong>$500</strong></li>
+                                <li><span>Foto 21x30:</span> <strong>$1,000</strong></li>
+                                <li><span>Foto Carnet:</span> <strong>$100 c/u</strong></li>
+                                <li><span>Tarjetas (100 un.):</span> <strong>$15,000</strong></li>
+                            </ul>
+                            <a href="https://wa.me/5412345678?text=Hola!%20Quiero%20consultar%20por%20otros%20servicios" class="btn-primary-small" target="_blank" rel="noopener">Consultar servicio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="steps">
+            <h2 class="section-title">¿Cómo encargar en 3 pasos?</h2>
+            <div class="steps-grid">
+                <div class="step-item">
+                    <span class="step-num">01</span>
+                    <h3>Enviás tus archivos</h3>
+                    <p>Mándanos tus documentos por WhatsApp especificando formato y cantidad.</p>
+                </div>
+                <div class="step-item">
+                    <span class="step-num">02</span>
+                    <h3>Confirmamos presupuesto</h3>
+                    <p>Te pasamos el costo al instante y las opciones de pago disponibles.</p>
+                </div>
+                <div class="step-item">
+                    <span class="step-num">03</span>
+                    <h3>¡Retirás o recibís!</h3>
+                    <p>Tu pedido queda impreso con la máxima nitidez y empaquetado para vos.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="logo-text">PrintHub</span>
+                <p class="motivational-quote">"Cada gran idea empieza en una hoja en blanco; nosotros te ayudamos a darle vida y forma."</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Contacto Directo</h3>
+                <a href="https://wa.me/5412345678" class="wa-footer-btn" target="_blank" rel="noopener">
+                    <span class="wa-icon">💬</span> +54 12345678
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 PrintHub - Fotocopias y Archivos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5412345678?text=Hola!%20Quiero%20hacer%20un%20pedido" class="float-wa" target="_blank" rel="noopener" aria-label="Contacto por WhatsApp">
+        💬
+    </a>
+
 </body>
 </html>
